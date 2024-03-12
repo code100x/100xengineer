@@ -1,20 +1,16 @@
 # Use the official Node.js image as the base
 FROM node:14-alpine
 
-# Set the working directory in the container
 WORKDIR /app
 
-# Copy the package.json and package-lock.json files
 COPY agent-backend/package*.json ./
 
-# Install the dependencies
 RUN npm install
 
-# Copy the entire Express backend code
 COPY agent-backend/ .
 
-# Expose the port the backend will run on
+
 EXPOSE 3001
 
-# Start the backend server
+
 CMD ["node", "server.js"]
