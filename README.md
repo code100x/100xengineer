@@ -3,6 +3,7 @@
 
 This project creates an experimental platform giving an agent access to compute and coding resources. It utilizes a React-based frontend, an Express backend, and integrates the LangchainJS agent library with GPT-3.5, managed and orchestrated using Kubernetes (k8s).
 
+
 ## Features
 
 - **React Frontend**: A dynamic user interface for interacting with the language model.
