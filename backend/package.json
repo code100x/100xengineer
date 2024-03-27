@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "express": "^4.19.1"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.0.42",
+    "@langchain/openai": "^0.0.23",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.28"
+  },
+  "overrides": {
+    "@langchain/core": "^0.1.50"
+  }
+}
